@@ -21,8 +21,15 @@
             (pkgs.python312.withPackages (
               python-pkgs: with python-pkgs; [
                 python-dotenv
-                huggingface-hub
                 flake8
+                pandas
+                numpy
+                scipy
+                # implicit TODO: doesn't exist
+                # surprise
+                scikit-learn
+                torch
+                transformers
               ])
             )
             just
