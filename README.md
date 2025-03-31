@@ -1,5 +1,15 @@
 # Recommender Systems
 
+This repository contains a collection of different recommendation systems implemented
+in Python. The goal is to provide a simple and easy-to-understand implementation
+of various systems. From simple content-based filtering to more complex. This
+repository contains the following systems:
+- Content-based filtering
+- Collaborative filtering
+- DNN-based filtering
+- Retrival and ranking systems
+
+
 ## Setting up
 ### Dependencies
 #### Nix

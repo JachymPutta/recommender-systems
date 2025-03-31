@@ -22,10 +22,6 @@ run-dnn:
 run-rr:
     python src/retrieval_rank.py
 
-[doc('TIGER recommendation')]
-run-tiger:
-    python src/tiger_demo.py
-
 [doc('Linting')]
 lint:
     flake8 src/
