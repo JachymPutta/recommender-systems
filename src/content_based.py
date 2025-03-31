@@ -45,4 +45,3 @@ if __name__ == "__main__":
     )
     for _, row in recommendations.iterrows():
         print(f"- {row['track_name']} by {row['artist_name']} ({row['track_id']})")
-

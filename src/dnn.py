@@ -1,7 +1,6 @@
 import os
 import torch
 import pandas as pd
-import numpy as np
 from torch import nn
 from sklearn.preprocessing import StandardScaler
 from dotenv import load_dotenv

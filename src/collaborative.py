@@ -1,6 +1,5 @@
 import os
 import numpy as np
-import pandas as pd
 from scipy.sparse import csr_matrix
 from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
@@ -89,4 +88,3 @@ if __name__ == "__main__":
     print("\nRecommended tracks:")
     for _, row in recommendations.iterrows():
         print(f"- {row['track_name']} by {row['artist_name']} ({row['track_id']})")
-
