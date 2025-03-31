@@ -1,0 +1,3 @@
+[submodule "RQ-VAE-Recommender"]
+	path = RQ-VAE-Recommender
+	url = git@github.com:EdoardoBotta/RQ-VAE-Recommender.git
